@@ -17,8 +17,8 @@
     $lastname = $_POST['lastname'];
     $email = $_POST['email'];
 
-    $sql = "INSERT INTO users (firstname, lastname, email) 
-    VALUES ('$firstname', '$lastname', '$email')";
+    $sql = "INSERT INTO users (firstname, lastname, gender, date of birth, email) 
+    VALUES ('ogbonna', 'kelechi', 'male', '21/02/2001', ogbonnabenneth3@gmail.com)";
 
     $result = $con->query($sql);
 
